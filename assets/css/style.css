@@ -1,0 +1,60 @@
+/* h1 {
+    font-size: 36px;
+    padding: 10px;
+} */
+
+.wrapper {
+    background-image: url("../images/hypnotize.png");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+#top {
+    background-color: brown;
+    color: white;
+    display: inline-block;
+
+}
+
+#instructions {
+    background-color: tan;
+    color: green;
+    width: 600px;
+}
+
+#random {
+    background-color: green;
+    color: purple;
+    float: left;
+    width: 300px;
+    height: 120px;
+}
+
+#wins-losses {
+    background-color: turquoise;
+    color: black;
+    width: 150px;
+    height: 120px;
+    overflow: auto;
+}
+
+#crystals {
+    /* background-color: white; */
+}
+
+img {
+    margin: 10px 0 10px 10px;
+}
+
+#score-1 {
+    background-color: teal;
+    color: white;
+    width: 300px;
+}
+
+#score-2 {
+    background-color: teal;
+    color: white;
+    width: 300px;
+}
