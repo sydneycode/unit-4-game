@@ -94,6 +94,7 @@ img {
     p {
         font-size: 13px;
         line-height: 13px;
+        margin-bottom: 5px;
     }
     .wrapper {
         width: 100%;
