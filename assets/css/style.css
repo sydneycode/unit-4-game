@@ -86,15 +86,42 @@ img {
     padding: 5px 10px;
 }
 
-
-@media screen and (max-width: 980px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
 @media screen and (max-width: 640px) {
-
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    #top, #instructions, #score-1, #score-2 {
+        width: 90%;
+        margin-bottom: 0;
+    }
+    #top {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #random {
+        width: 55%;
+        margin-right: 0;
+        height: 100px;
+    }
+    #wins-losses {
+        width: 35%;
+        margin-left: 0;
+        height: 100px;
+    }
+    #score-1 {
+        height: 20px;
+    }
+    #crystals {
+        margin-left: 15px;
+    }
+    img {
+        width: 20%;
+    }
 }
