@@ -1,0 +1,129 @@
+h1 {
+    font-size: 36px;
+    padding: 5px 10px;
+} 
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+img {
+    margin: 10px 0 10px 10px;
+}
+
+.wrapper {
+    background-image: url("../images/hypnotize.png");
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+#top {
+    background-color: brown;
+    color: white;
+    display: inline-block;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+#instructions {
+    background-color: tan;
+    color: green;
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#random {
+    background-color: green;
+    color: purple;
+    float: left;
+    width: 300px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#wins-losses {
+    background-color: turquoise;
+    color: black;
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+#crystals {
+    /* background-color: white;
+    width: 460px; */
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#score-1 {
+    background-color: teal;
+    color: white;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#score-2 {
+    background-color: teal;
+    color: white;
+    width: 300px;
+    margin-left: 20px;
+}
+
+#top, #instructions, #random, #wins-losses, #score-1, #score-2 {
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 30px;
+        padding-bottom: 0;
+    }
+    p {
+        font-size: 13px;
+        line-height: 13px;
+        margin-bottom: 5px;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    #top, #instructions, #score-1, #score-2 {
+        width: 90%;
+        margin-bottom: 0;
+    }
+    #top {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #random {
+        width: 55%;
+        margin-right: 0;
+        height: 100px;
+    }
+    #wins-losses {
+        width: 35%;
+        margin-left: 0;
+        height: 100px;
+    }
+    #score-1 {
+        height: 20px;
+    }
+    #crystals {
+        margin-left: 15px;
+    }
+    img {
+        width: 20%;
+    }
+}
